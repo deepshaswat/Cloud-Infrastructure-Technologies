@@ -1,0 +1,119 @@
+Next Generation Cloud Technologies:
+1. Docker
+2. CoreOS
+3. Cloud Foundry
+4. Kubernetes
+5. OpenStack
+
+
+Cloud Computing:
+
+Categories of the Cloud Computing:
+Infrastructure as a Service IaaS
+Platform as a Service PaaS
+Software as a Service SaaS
+
+Features of Cloud Computing:
+- Speed and Agility
+- Cost
+- Easy access to resources
+- Maintenance
+- Multi-tenancy
+- Reliability
+
+Cloud Deployment Models:
+- Private Cloud: Used for only one organisation. Can build a Private cloud using the softwares like OpenStack.
+- Public Cloud: Accessible and used by everyone. AWS and Google Compute Engine.
+- Hybrid Cloud: Public and Private bound together.
+
+OpenSource Projects by Linux Foundation:
+
+Networking: 
+- OpenDaylight: https://www.opendaylight.org/
+- Openfv: https://www.opnfv.org/
+
+Embedded:
+- Dronecode: https://www.dronecode.org/
+
+Web tools:
+- Node.js: https://nodejs.org/en/
+
+Cloud Computing:
+- Cloud Foundry: https://www.cloudfoundry.org/
+- Cloud Native Computing Foundation: https://www.cncf.io/
+- Open Container Initiative: https://www.opencontainers.org/
+
+Automotive:
+- Automotive Grade Linux: https://www.automotivelinux.org/
+
+Security:
+- The Core Infrastructure Initiative: https://www.coreinfrastructure.org/
+
+Finance:
+- The Hyperledger Project: https://www.hyperledger.org/
+
+
+
+-------------------------------------------------
+VIRTUALIZATION
+-------------------------------------------------
+
+Virtual Machines are created on top of a Hypervisor, which runs on top of the Host Machine's Operating System. With Hypervisor, we emulate hardware like CPU, Disk, Network, Memory and install Guest Machines on it.
+
+Examples of Hypervisors:
+- KVM
+- Xen
+- VMWare
+- VirtualBox
+- Hyper-V
+
+
+
+KVM:
+
+Kernel-based Virtual Machine is a full virtualization solution for Linux on x86 hardware.
+
+It is an Open Source software. It supports various OSes like, Linux, Windows, Solaris.
+
+KVM does not perform any emulator itself, but exposes the /dev/kvm interface, by which an external userspace host can do emulation. QEMU is one such host.
+
+Benefits of Using KVM
+Some of the benefits of using KVM are:
+
+- It is an Open Source solution, and, as such, free to customize.
+- Using KVM is efficient from a financial perspective as well, due to the lower costs associated with it.
+- It is highly scalable.
+- KVM employs advanced security features, utilizing SELinux. It provides MAC (Mandatory Access Control) security between Virtual Machines. KVM has received awards for meeting common government and military security standards  and for allowing open virtualization for homeland security projects.
+
+VirtualBox:
+
+Vagrant:
+
+Used to automate the creation and deletion of VMs: Shell, Docker, Ansible
+
+
+-------------------------------------------------
+Infrastructure as a Service (IaaS)
+-------------------------------------------------
+
+IaaS is a form of Cloud Computing which provides on-demand physical and virtual computing resources, storage, network, firewall, load balancers, etc. To provide virtual computing resources, IaaS uses some form of Hypervisor, like Xen, KVM, VMware ESX/ESXi, Hyper-V, etc.
+
+IaaS is the backbone of all cloud services, providing the compute resources. After getting the compute resources, we provide other services on top of that.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
